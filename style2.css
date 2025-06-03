@@ -1,0 +1,37 @@
+@font-face{
+  font-family: "negritabl";
+  src: url(fonts/AlfaSlabOne-Regular.ttf);
+}
+body{
+  background-color: #eeebbd;
+  font-family: 'negritabl';
+}
+.info1 th{
+    background-color: #d5f5fc;
+    border:#9cb1a7;
+    border-style: double;
+    width: 10%;
+    padding: 1%;
+  }
+  .info1 td{
+    background-color: #81998f;
+    border:#49644c8f;
+    border-style: double;
+    width: 10%;
+    padding: 1%;
+} 
+.info2 th{
+  background-color: #478bca;
+  border: hsla(241, 42%, 40%, 0.561);
+  border-style: double;
+  width: 10%;
+  padding: 1%;
+
+}   
+.info2 td{
+  background-color:#478bca;
+  border:hsla(241, 42%, 40%, 0.561);
+  border-style: double;
+  width: 10%;
+  padding: 1%;
+ } 

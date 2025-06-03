@@ -1,0 +1,170 @@
+
+@font-face {
+  font-family: "lanafuente";
+  src: url("fonts/BebasNeue-Regular.ttf");
+}
+  a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+
+  .panel {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    transition: all 0.3s;
+  }
+
+  .ventana-emegente {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .contednido-ventana {
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;}
+
+#listanav {
+  display: flex;
+  flex-direction: row;
+  background-color: #bbaaa0;
+  list-style: none;
+  width: 100%;
+ margin: -0.5%;
+  position: fixed;    /* Fija la barra */
+  top: 0;             /* Arriba de la página */
+  left: 0;            /* Pegada al borde izquierdo */
+  z-index: 1000;       /* Encima de otros elementos */
+  justify-content: center;
+  align-items: center;
+}
+#listanav li {
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+#listanav a {
+  text-decoration: none;
+  color: #8a5c47;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+ 
+}
+
+#listanav a:hover {
+  background: #c9b9a4;
+  color: #fff;
+}
+body {
+  font-family: 'lanafuente', Times, serif;
+  background: #f4f1ec;
+  color: #222;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 0;
+  color: #8a5c47;
+  font-weight: 400;
+}
+
+.main-ioage  img {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.seccion {
+  margin: 32px 0;
+  padding: 16px 0;
+  border-bottom: 1px solid #e0d8cf;
+}
+.mini-secciones {
+  border-bottom: none;
+}
+
+.seccion h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #a67c52;
+  font-weight: 600;
+}
+
+.seccion p {
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0;
+}
+
+.imagenes-laterales {
+  display: flex;
+  gap: 4%;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.imagenes-laterales img {
+  width: 48%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 16px;
+}
+
+.firma {
+  text-align: right;
+  margin-top: 20px;
+  font-style: italic;
+  color: #8a5c47;
+  font-size: 16px;
+}
+
+  .imagenes-laterales {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .imagenes-laterales img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 18px;
+  }
