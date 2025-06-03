@@ -168,3 +168,27 @@ h2 {
   h2 {
     font-size: 18px;
   }
+/* Media query para pantallas de hasta 600px de ancho */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .artist_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .content {
+    padding: 0;
+  }
+  nav a, .comprar a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
