@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "lanafuente";
-  src: url("BebasNeue-Regular.ttf");
+  src: url("BebasNeue-Regular.ttf");;format:("truetype");
 }
   a{
     text-decoration: none;
