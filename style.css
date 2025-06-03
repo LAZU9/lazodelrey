@@ -66,7 +66,7 @@ body {
 }
 @font-face {
   font-family: "lanafuente";
-  src: url("fonts/BebasNeue-Regular.ttf");
+  src: url("BebasNeue-Regular.ttf");
 }
 body {
     font-family:'lanafuente';
