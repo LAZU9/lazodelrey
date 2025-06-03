@@ -1,6 +1,6 @@
 @font-face {
   font-family: "lanafuente";
-  src: url("BebasNeue-Regular.ttf");
+  src: url("BebasNeue-Regular.ttf");;format:("truetype");
 }
 body{
     margin: 0;
